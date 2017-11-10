@@ -49,6 +49,10 @@ font-size:$base-font-size + 5;
             margin-right: 20px;
         }
     }
+    .active {
+      color: $pagination-hover-color;
+      text-decoration: underline;
+    }
 
     @include media-query($on-laptop) {
         position: absolute;
@@ -585,12 +589,11 @@ font-weight:100;}
 font-weight:300;}
 
 #collectionlist{
-
-
+  display: none;
 background:#666;
 color:white;
 position:absolute;
-top:-3000px;
+top:0px;
 padding:20px;
 right:20px;
  cursor:auto;
