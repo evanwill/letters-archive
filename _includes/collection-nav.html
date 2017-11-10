@@ -13,8 +13,7 @@
 
             <div class="trigger">
                 <div class="col-md-8 col-sm-12" style="whitespace:nowrap;">
-                    <a class="page-link {% if page.url == "/" %} active{% endif %}" href="{{ site.baseurl }}/" id="homehash" >Home</a> 
-                    <a class="page-link {% if page.url == "/table.html" %} active{% endif %}" href="{{ site.baseurl }}/table.html" id="tablehash" >Table</a>
+                    <a class="page-link {% if page.url == "/" %} active{% endif %}" href="{{ site.baseurl }}/" id="homehash" >Home</a>
                     <a class="page-link {% if page.url == "/about.html" %} active{% endif %}" href="{{ site.baseurl }}/about.html" id="abouthash">About</a>
                 </div>
                 
@@ -27,9 +26,8 @@
                         }
                     </script>
                     <form class="searchall" role="search" id="search" onsubmit="google_search(); return false;">
-                        <div class="form-group">
                             <input type="text" size="15" id="google-search" placeholder="Google search..." aria-label="Google site search">
-                        </div>
+                            <input class="button-all" type="submit" value=" Search ">
                     </form>
                 </div>
 

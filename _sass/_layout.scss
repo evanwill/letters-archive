@@ -181,7 +181,7 @@ font-size:$base-font-size + 5;
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 3%;
 }
 
 .page-heading {
@@ -568,7 +568,7 @@ border-top:#fff 1px solid; border-radius:3px;
 /** End Header bottom **/
 
 .page-content{
-    background: #676767;
+    //background: #676767;
 }
 
 .page-content .wrapper{
@@ -1457,7 +1457,7 @@ div.jp-audio div.jp-type-single div.jp-interface {
      @include media-query($on-palm) { height: 800px; min-width:300px;}
      }
 
-     .about-narrative{width:70%;margin:0% auto;font-size: 18px;
+     .about-narrative{width:90%;margin:0% auto;font-size: 18px;
       @include media-query($on-palm) {width:90%;}}
 
          .about-img{float:right;margin:0px 0px 0px 20px;text-align:center;font-size: 16px;
