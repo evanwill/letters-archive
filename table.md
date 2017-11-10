@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Table
 ---
 {% assign items = site.data.fridayletters %}
 
