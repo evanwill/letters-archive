@@ -1,0 +1,23 @@
+# Jekyll GH-pages Digital Collection Generator
+
+# Site settings
+title: Friday Letter
+description: archive of Friday Letter
+keywords: idaho, digital collections, history, photographs
+owner: University of Idaho Library
+email: ewilliamson@uidaho.edu
+
+# url variables
+url: https://evanwill.github.io
+baseurl: /letters-archive
+liburl: https://www.lib.uidaho.edu
+digurl: https://www.lib.uidaho.edu/digital
+repourl: https://digital.lib.uidaho.edu
+
+# page gen settings https://github.com/avillafiorita/jekyll-datapage_gen
+page_gen:
+  - data: 'fridayletters'
+    template: 'letter'
+    name: 'date'
+    dir: 'letters'
+    extension: 'html'
